@@ -15,9 +15,9 @@ public class SqlTest3 {
         Statement state = null;
         PreparedStatement prep = null;
         ResultSet res = null;
-        String jdbcURL = "jdbc:postgresql://localhost:5432/assignment3";
-        String user = "ajouDatabase";
-        String password = "captainajou";
+        String jdbcURL = "";
+        String user = "";
+        String password = "";
 
         try {
             Scanner scan = new Scanner(System.in);
