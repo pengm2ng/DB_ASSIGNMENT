@@ -14,8 +14,8 @@ public class SqlTest {
         PreparedStatement prep = null;
         ResultSet res = null;
         String jdbcURL = "jdbc:postgresql://localhost:5432/assignment2";
-        String user = "ajouDatabase";
-        String password = "captainajou";
+        String user = "";
+        String password = "";
 
         try {
             Scanner scan = new Scanner(System.in);
